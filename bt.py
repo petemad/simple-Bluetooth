@@ -97,8 +97,8 @@ class patientSignal(QtWidgets.QMainWindow):
             print("Model Number: {0}".format("".join(map(chr, model_number))))
 
     def tryfun(self):
-        #address = "a4:cf:12:0a:7e:c2"
-        address = "77-92-9A-D4-D5-F5"
+        address = "a4:cf:12:0a:7e:c2" #ESP32
+        #address = "77-92-9A-D4-D5-F5" #myPhone
         #MODEL_NBR_UUID = "00002a24-0000-1000-8000-00805f9b34fb"
 
         #loop = asyncio.get_event_loop()
